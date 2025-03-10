@@ -51,8 +51,8 @@ int main(int argc, char *argv[]) {
 	}
 	
 	//sort mean values by ascening order
-	for(i = 0; i < (sizeof(array) / sizeof(array[0])) - 1; i++) {
-		for(j = 0; j < (sizeof(array[0]) / sizeof(array[0][0])) - 1; j++) {
+	for(i = 0; i < (sizeof(mean_values) / sizeof(mean_values[0])) - 1; i++) {
+		for(j = 0; j < (sizeof(mean_values) / sizeof(mean_values[0])) - 1; j++) {
 			if(mean_values[j] > mean_values[j + 1]) {
 				double temp = mean_values[j];
 				mean_values[j] = mean_values[j + 1];
