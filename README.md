@@ -1,3 +1,5 @@
+Course task presentation: https://docs.google.com/presentation/d/1D0aNZE7r_In5bAf_o16Jejzi3cLHVX-IjSmyouKi2H8/edit?usp=sharing
+
 Write a program to process a two-dimensional array, A[N][N], containing real numbers within the
 range [-1000, 1000]. Actions:
 - print the task instructions
